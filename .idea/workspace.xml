@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a7b4d7d-1887-44db-8b58-de7e5a2f358b" name="Changes" comment="add PageObject" />
+    <list default="true" id="0a7b4d7d-1887-44db-8b58-de7e5a2f358b" name="Changes" comment="add exception catch">
+      <change afterPath="$PROJECT_DIR$/pages/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main_page.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +29,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,11 +41,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "F:/testProject"
+    "last_opened_file_path": "F:/testProject/.idea"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\testProject\.idea" />
       <recent name="F:\testProject" />
     </key>
   </component>
@@ -75,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669536856948</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add exception catch">
+      <created>1669538724608</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669538724608</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add exception catch">
+      <created>1669538784277</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669538784277</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="base for project" />
     <MESSAGE value="add PageObject" />
-    <option name="LAST_COMMIT_MESSAGE" value="add PageObject" />
+    <MESSAGE value="add exception catch" />
+    <option name="LAST_COMMIT_MESSAGE" value="add exception catch" />
   </component>
 </project>
