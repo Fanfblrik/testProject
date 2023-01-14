@@ -23,3 +23,9 @@ class LoginPage(BasePage, LoginPageLocators):
         self.is_element_present(*LoginPageLocators.REGISTRATION_EMAIL), "Login link is not presented"
         self.is_element_present(*LoginPageLocators.REGISTRATION_PASSWORD), "Login link is not presented"
         assert True
+
+    def register_new_user(self, email, password):
+        self.browser.find_element(*LoginPageLocators.REGISTRATION_EMAIL).send_keys(email)
+        self.browser.find_element(*LoginPageLocators.REGISTRATION_PASSWORD).send_keys(password)
+        self.browser.find_element(*LoginPageLocators.REGISTRATION_PASSWORD_REPEAT).send_keys(password)
+        self.browser.find_element(*LoginPageLocators.REGISTRATION_SUBMIT_BUTTON).click()
